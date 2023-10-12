@@ -1,9 +1,32 @@
-# gitTest
+克隆存储库
 
-为了理解递归，你必须首先理解递归。
+# git clone
 
-这个世界上有 10 种人:懂二进制的和不懂二进制的。
+获取该目录中长格式的文件列表
 
-一位 SEO 专家走进酒吧、酒馆、酒类商店、啤酒厂、酒类、啤酒、威士忌、伏特加……
+# ls -l
 
-为什么这两个函数不再互相调用了?因为他们经常吵架。
+创建一个分支
+
+# git branch chenqingsong
+
+执行以下命令看到 Git 创建了新分支
+
+# git branch
+
+切换到 chenqingsong 分支
+
+# git checkout git checkout my-joke
+
+执行以下命令来标记你对文件所做的更
+
+# git add README.md
+
+提交更改
+
+# git commit -m "firstDaily"
+
+本地更改推送到分支的远程存储库
+
+# git push --set-upstream chenqingsong
+
