@@ -32,3 +32,19 @@
 –set-upstream 告诉 Git 在本地存储库和远程存储库之间为此分支形成跟踪链接。
 
 # git push --set-upstream chenqingsong
+
+删除:
+
+# rm -rf chenqingsong
+
+显示工作树的当前状态——即您正在处理的目录中的文件集合:
+
+# git status
+
+比较同一文件的两个版本:
+
+# git diff
+
+将所有更改添加到暂存区域:
+
+# git add .
