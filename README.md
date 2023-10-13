@@ -45,6 +45,8 @@
 
 # git diff
 
+# git diff --staged
+
 将所有更改添加到暂存区域:
 
 # git add .
