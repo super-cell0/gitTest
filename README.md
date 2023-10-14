@@ -114,3 +114,10 @@ git log -S"<term>"允许您搜索特定术语的提交更改集的内容。
 使用 git branch --all 查看所有本地和远程分支。
 origin，和 main 一样，只是一个方便的约定，是远程存储库 URL 的别名。
 使用 git checkout -b <branchname>一举创建并切换到本地分支。
+
+git log <theirs> --not <ours>显示您要合并的分支上哪些提交，这些提交尚未在您的分支中。
+git merge <theirs>将“他们的”分支上的提交合并到“我们的”分支中。
+
+Git 从 main 分支中获取更改，并将远程存储库（origin）与您的更改同步:
+
+# git push origin main
