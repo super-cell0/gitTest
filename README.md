@@ -102,3 +102,15 @@ git log <path/to/filename>将只向您显示与该文件关联的提交。
 git log <directory>将向您显示特定目录中文件的提交。
 git log --stat 显示了每个提交中更改的范围和规模的漂亮概述。
 git log -S"<term>"允许您搜索特定术语的提交更改集的内容。
+
+删除分支:
+
+# git branch -d chenqingsong
+
+使用 git branch <branchname>创建一个分支。
+使用 git branch 查看所有本地分支。
+使用 git checkout <branchname>切换到本地分支，或签出和跟踪远程分支。
+使用 git branch -d <branchname>删除本地分支。
+使用 git branch --all 查看所有本地和远程分支。
+origin，和 main 一样，只是一个方便的约定，是远程存储库 URL 的别名。
+使用 git checkout -b <branchname>一举创建并切换到本地分支。
