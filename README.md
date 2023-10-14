@@ -58,3 +58,7 @@
 显示提交的实际差异:
 
 # git log -p
+
+git 重置 :
+
+# git reset HEAD
