@@ -121,3 +121,7 @@ git merge <theirs>将“他们的”分支上的提交合并到“我们的”�
 Git 从 main 分支中获取更改，并将远程存储库（origin）与您的更改同步:
 
 # git push origin main
+
+更改从遥控器拉入本地:
+
+# git pull origin
