@@ -125,3 +125,8 @@ Git 从 main 分支中获取更改，并将远程存储库（origin）与您的�
 更改从遥控器拉入本地:
 
 # git pull origin
+
+设置 git 用户名和电子邮件
+git config --global user.name "your-username-here"
+git config --global user.email "youremail@domain.com"
+
