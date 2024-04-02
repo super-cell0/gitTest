@@ -1,5 +1,9 @@
 克隆存储库:
 
+回溯版本：
+# git revert HEAD
+
+
 # git clone
 
 获取该目录中长格式的文件列表:

@@ -3,6 +3,3 @@ def person_age(a):
 
 
 person_age(45)
-
-
-print("hello world")
